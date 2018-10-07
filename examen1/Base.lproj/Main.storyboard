@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina5_9" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,43 +17,45 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="examen1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="812" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="OHZ-VK-DMw" userLabel="Stack View G">
-                                <rect key="frame" x="45" y="74" width="230" height="276"/>
+                                <rect key="frame" x="317.33333333333331" y="54.000000000000014" width="177.33333333333331" height="212.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qam-5d-WPM" userLabel="Stack View 1">
-                                        <rect key="frame" x="0.0" y="0.0" width="230" height="138"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="212.33333333333334"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kpa-Kh-g5o" userLabel="PinkView">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="138"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="106.33333333333333"/>
                                                 <color key="backgroundColor" red="0.99942404029999998" green="0.73021547109999996" blue="0.71339208180000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6rH-u1-8JC" userLabel="GreenView">
-                                                <rect key="frame" x="115" y="0.0" width="115" height="138"/>
+                                                <rect key="frame" x="0.0" y="106.33333333333334" width="88.666666666666671" height="106"/>
                                                 <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                         </subviews>
+                                        <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="4b4-eo-AoX" userLabel="Stack View 2">
-                                        <rect key="frame" x="0.0" y="138" width="230" height="138"/>
+                                        <rect key="frame" x="88.666666666666686" y="0.0" width="88.666666666666686" height="212.33333333333334"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="87B-d3-Oel" userLabel="PurpleView">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="138"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="88.666666666666671" height="106.33333333333333"/>
                                                 <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXP-Ge-cVh" userLabel="OrangeViiew">
-                                                <rect key="frame" x="115" y="0.0" width="115" height="138"/>
+                                                <rect key="frame" x="0.0" y="106.33333333333334" width="88.666666666666671" height="106"/>
                                                 <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </view>
                                         </subviews>
+                                        <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OHZ-VK-DMw" secondAttribute="height" multiplier="81:97" id="1oD-Si-vfs"/>
-                                    <constraint firstItem="4b4-eo-AoX" firstAttribute="centerX" secondItem="qam-5d-WPM" secondAttribute="centerX" id="riB-lc-LRD"/>
                                 </constraints>
+                                <variation key="heightClass=compact" axis="horizontal"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.63227136250000004" green="0.95089267040000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
